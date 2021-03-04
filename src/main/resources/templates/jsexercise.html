@@ -11,7 +11,7 @@
     <input id="input" type="text"/>
 
     <br> <p id="output" hidden="true"></p>
-    <input id="btn" type="button" value="Click me!" onclick="checkButton()"></inputbutton>
+    <input id="btn" type="button" value="Click me!" onclick="checkButton()"/>
 
 </div>
 
@@ -42,11 +42,9 @@
     function checkButton(){
 
         if (document.getElementById("btn").value === "Click me!"){
-            alert("Empty")
             btnClick()
 
         } else if (document.getElementById("btn").value === "Change text above and click me again"){
-            alert("Repeated")
             changeClick()
 
         } else {

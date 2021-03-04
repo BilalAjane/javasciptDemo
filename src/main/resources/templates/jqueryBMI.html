@@ -38,8 +38,8 @@
         var BMI = weight / (height * height);
 
 
-        var inputValue = $("#output").text(BMI);
-        parseInt(inputValue,10);
+        $("#output").text(BMI);
+
 
         if (BMI < 18.5) {
             $("#comment").text("undervægtig");
